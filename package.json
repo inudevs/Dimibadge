@@ -1,0 +1,31 @@
+{
+  "name": "dimibadge",
+  "version": "1.0.0",
+  "description": "Name tag badges for Dimigo students",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "gh-badges": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CIVAR-DIMIGO/Dimibadge.git"
+  },
+  "author": "civar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CIVAR-DIMIGO/Dimibadge/issues"
+  },
+  "homepage": "https://github.com/CIVAR-DIMIGO/Dimibadge#readme"
+}
