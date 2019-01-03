@@ -4,6 +4,7 @@
   "description": "Name tag badges for Dimigo students",
   "main": "main.js",
   "dependencies": {
+    "command-line-usage": "^5.0.5",
     "express": "^4.16.4",
     "gh-badges": "^2.1.0"
   },
@@ -16,7 +17,7 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",

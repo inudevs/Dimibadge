@@ -19,7 +19,7 @@
 |:----------|:-------|:------------|
 | `dpt`     | `URL`  | 학과(대소문자에 상관없이 `eb`, `dc`, `wp`, `hd` 중 하나) |
 | `year`    | `URL`  | 입학년도(기수) |
-| `base`    | `GET`  | 과별 색상 왼쪽의 학과 필드 색(기본값은 `#555`), `#` 없이 전달 |
+| `base`    | `GET`  | 과별 색상 왼쪽의 학과 필드 색(기본값은 `#777`), `#` 없이 전달 |
 
 ## Badges with name
 학생의 학과와 입학년도, 이름이 나타나는 배지입니다.
@@ -38,3 +38,23 @@
 | `dpt`     | `URL`  | 학과(대소문자에 상관없이 `eb`, `dc`, `wp`, `hd` 중 하나) |
 | `year`    | `URL`  | 입학년도(기수) |
 | `name`    | `URL`  | 이름 |
+
+## CLI
+
+```bash
+$ node cli.js --help
+
+Dimibadge
+
+  Generate badges for Dimigo related documents
+
+Options
+
+  --minimal department year output file      Create badge with department and admission year
+  --named department year name output file   Create badge with department, admission year, name
+  --help                                     Print this usage guide.
+```
+
+배지를 생성할 수 있습니다.
+
+> usage: `node cli.js --minimal wp 18 1.svg`
